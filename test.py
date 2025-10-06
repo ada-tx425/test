@@ -13,18 +13,3 @@ class Student(Person):
 
     def study(self, subject):
         return f"{self.name} is studying {subject}."
-
-class Calculator:
-    @staticmethod
-    def add(a, b):
-        return a + b
-
-    @staticmethod
-    def subtract(a, b):
-        return a - b
-    
-    def factorial(self, n):
-        if n == 0:
-            return 1
-        else:
-            return n * self.factorial(n - 1)
