@@ -11,5 +11,5 @@ class Student(Person):
         super().__init__(name, age)
         self.student_id = student_id
 
-    def study(self, subject):
+    def study1(self, subject):
         return f"{self.name} is studying {subject}."
